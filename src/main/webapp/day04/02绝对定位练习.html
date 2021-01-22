@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body > div {
+            width: 280px;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            position: relative;
+        }
+
+        input {
+            width: 240px;
+            padding: 10px 20px;
+            border: 0;/*去掉边框*/
+        }
+
+        img {
+            position: absolute;
+            left: 240px;/*right：30px*/
+            top: 14px;
+        }
+
+        p {
+            color: red;
+            font-size: 12px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" placeholder="请输入用户名">
+    <img src="http://doc.canglaoshi.org/tstore_v1/images/login/yhm.png" alt="">
+    <p>用户名不能为空！</p>
+</div>
+</body>
+</html>

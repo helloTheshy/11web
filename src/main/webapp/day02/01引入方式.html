@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--内部样式，好处可以复用，只能在当前页面使用-->
+    <style>
+        /* 标签名选择器 */
+        h2{
+            color: mediumseagreen
+        }
+        h3{
+            color: coral;
+        }
+    </style>
+    <!--引入外部的css样式文件  link -->
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+<!--内联样式在标签style属性中添加css样式代码    不能复用-->
+<h1 style="color: #6495ed">内联样式测试1</h1>
+<h1 style="color: hotpink">内联样式测试2</h1>
+<h2>内部样式测试3</h2>
+<h2>内部样式测试4</h2>
+<h3>外部样式测试1</h3>
+<h3>外部样式测试2</h3>
+
+</body>
+</html>

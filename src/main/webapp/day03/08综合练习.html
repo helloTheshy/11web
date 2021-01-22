@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font: 12px "simhei", Arial, Helvetica, sans-serif;
+            color: #666;
+        }
+        div{
+            width: 198px;
+            height: 233px;
+            background-color: #e8e8e8;
+            text-align: center;/*内容居中*/
+        }
+        .p1{
+            color: #000;
+            margin-bottom: 6px;
+        }
+        .p2{
+            color: #0aa1ed;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        a{
+            width: 100px;
+            height: 24px;
+            background-color: #0aa1ed;
+            display: inline-block;
+            /*如果设置成行内块也可以在text-align: center的作用下居中*/
+            /*如果设置成块级元素 则不受text-align：center影响
+            要想居中通过 margin：0 auto方式设置*/
+            /*margin: 0 auto;*/
+            color: white;
+            /*font-size: 12px;
+            text-align: center;*//*继承过可以不用写*/
+            line-height: 24px;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+ <div>
+     <img src="http://doc.canglaoshi.org/tstore_v1/images/itemCat/study_computer_img3.png" alt="">
+     <p class="p1">戴尔(DELL)XPS13-9360-R1609 13.3英寸微边框笔记本电脑</p>
+     <p class="p2">￥4600.00</p>
+     <a href="">查看详情</a>
+ </div>
+</body>
+</html>
